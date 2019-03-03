@@ -12,6 +12,9 @@ variable "Dept" {}
 variable "Created_by" {}
 variable "count" {}
 variable "Name" {}
+variable "min_size" {}
+variable "max_size" {}
+
 
 
 
