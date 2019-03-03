@@ -1,12 +1,8 @@
-resource "aws_instance" "dev" {
-    ami = "${var}"
-    instance_type = "t2.micro"
-    key_name = ""
-    count = "1"
+resource "aws_instance" "example" {
+    ami = "${var.ami}"
+    instance_type = "${var.instance_type}"
+    key_name = "${var.keyname}"
+    subnet_id = "${var.subnet_id}"
 
-    tags {
-        Name =
-        Created_by = "${var.Created_by}"
-        Department = "${var.Department}"
-    }
+
 }
