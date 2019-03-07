@@ -1,3 +1,3 @@
-resource "aws_internet_gateway" "dev" {
-    vpc_id = "${aws_vpc.dev.id}"  
+resource "aws_internet_gateway" "qa" {
+    vpc_id = "${aws_vpc.qa.id}"  
 }
