@@ -1,0 +1,11 @@
+ami                     = "ami-08935252a36e25f85"
+instance_type           = "t2.micro"
+keyname                 = "testkey"
+subnet_id               = "subnet-38457f63"
+Name                    = "Consul"
+Env                     = "QA"
+Created_by              = "Aiza"
+Dept                    = "IT"
+count                   = 1
+min_size                = 2
+max_size                = 4
